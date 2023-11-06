@@ -1,0 +1,1068 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo img {
+    width: 200px;
+    height: 69px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding: 0px;
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    margin-left: 30px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    background: linear-gradient(to right, #808080 9%, #ffffff 95%);
+}
+
+section.background-image {
+    background-image: url(./img/illustration-fitness-equipments-design-background_916191-36186.avif);
+    background-size: 100%;
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.unleash h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    padding-top: 55px;
+    color: white;
+}
+
+.unleash p {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 12px;
+    color: white;
+}
+
+.join-now button {
+    border-top-left-radius: 18px;
+    padding: 6px;
+    text-transform: capitalize;
+    margin-top: 15px;
+    background-color: red;
+    color: white;
+}
+
+.join-free-trial button {
+    color: white;
+    border-top-left-radius: 18px;
+    padding: 6px;
+    text-transform: capitalize;
+    margin-top: 15px;
+    background-color: red;
+
+
+}
+
+.fitness-joureny h2 {
+    font-size: 35px;
+    text-transform: capitalize;
+    padding-top: 80px;
+    color: white;
+}
+
+.coustmized p {
+    font-size: 20px;
+    padding-top: 80px;
+    color: white;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+section.background-image {
+    animation-name: background-image;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes background-image {
+    0% {
+        background-image: url(./img/illustration-fitness-equipments-design-background_916191-36186.avif);
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+    }
+
+    25% {
+        background-image: url(./img/slide-1.jpg);
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+    }
+
+    50% {
+        background-image: url(./img/slide-2.jpg);
+        background-size: cover;
+        width: 100%;
+    }
+
+    75% {
+        background-image: url(./img/slide-3.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+    }
+
+    100% {
+        background-image: url(./img/bc79a4fe9aa1f6e56f5d00a01ad0dae2.jpg);
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+    }
+}
+
+.main {
+    height: 900px;
+}
+
+.line-imgae img {
+    width: 27%;
+    padding-top: 30px;
+    margin-left: -50px;
+}
+
+.space-seven h2 {
+    margin-top: 103px;
+    font-size: 47px;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+}
+
+.space-seven span {
+    color: red;
+}
+
+.triangle-image img {
+    padding-top: 241px;
+    margin-left: 131px;
+}
+
+hr.height {
+    padding: 3px;
+    text-align: center;
+    width: 60px;
+    margin-left: 235px;
+    color: red;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.space-seven p {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+section.background-color {
+    background-color: #000000de;
+    margin-top: 0px;
+}
+
+.holistic img {
+    width: 35%;
+}
+
+.holistic {
+    text-align: center;
+    padding: 28px;
+    line-height: 18px;
+    background-color: #8080803b;
+    margin-top: 73px;
+    color: white;
+}
+
+.holistic-1 {
+    text-align: center;
+    padding: 28px;
+    line-height: 18px;
+    background-color: #8080803b;
+    color: white;
+    margin-top: 7px;
+}
+
+.holistic-1 img {
+    width: 35%;
+}
+
+.holistic-1 h2 {
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.holistic h2 {
+    font-size: 23px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+hr.height-1 {
+    width: 50px;
+    padding: 3px;
+    color: red;
+    margin-left: 42%;
+}
+
+hr.height-1 {
+    width: 50px;
+    padding: 3px;
+    color: red;
+    margin-left: 42%;
+    margin-top: -6px;
+}
+
+.cardio-1 p {
+    font-size: initial;
+    line-height: 27px;
+}
+
+.holistic span {
+    color: red;
+}
+
+.holistic-1 span {
+    color: red;
+}
+
+.holistic:hover {
+    border: inset 7px red;
+    transition: 0.3s ease-in-out;
+}
+
+.holistic-1:hover {
+    border: inset 7px red;
+    transition: 0.3s ease-in-out;
+}
+
+section.background-image-3 {
+    background-image: url(./img/bg-programs.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    height: 730px;
+}
+
+.key-features h2 {
+    font-size: 40px;
+}
+
+.key-features p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.key-features {
+    color: white;
+    text-align: center;
+    padding: 61px;
+}
+
+.key-features span {
+    color: red;
+}
+
+hr.height-2 {
+    width: 51px;
+    padding: 3px;
+    color: red;
+    margin-left: 47%;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+/* flip image */
+.flip-card {
+    background-color: transparent;
+    width: 258px;
+    height: 329px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1.2s;
+    transform-style: preserve-3d;
+}
+
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.flip-card-front h2 {
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    position: relative;
+    /* left: 23px; */
+    text-transform: capitalize;
+    bottom: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-card-back h2 {
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    position: relative;
+    /* left: 23px; */
+    text-transform: capitalize;
+    bottom: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-card-back:hover {
+    border: inset 7px red;
+}
+
+.flip-card-front:hover {
+    border: inset 7px red;
+}
+
+.flip-card-back img {
+    width: 250px;
+    height: 323px;
+}
+
+.flip-card-front img {
+    width: 250px;
+    height: 323px;
+}
+
+.upper {
+    margin-top: -25px;
+}
+
+.lower {
+    margin-top: 12px;
+}
+
+.middle {
+    margin-top: 43px;
+}
+
+.upper-case {
+    margin-top: 72px;
+}
+
+section.black-color {
+    background: black;
+    padding: 40px;
+}
+
+.recompose img {
+    width: 77%;
+    padding: 37px;
+    margin-left: -40px;
+}
+
+.recompose p {
+    width: 63%;
+    color: white;
+}
+
+.icon-1 span {
+    letter-spacing: 9px;
+    padding: 1px;
+    color: white;
+    font-size: 16px;
+}
+
+.links h2 {
+    padding: 37px;
+    color: white;
+    text-transform: capitalize;
+    margin-left: -40px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 35px;
+}
+
+.contact-us h2 {
+    padding: 37px;
+    color: white;
+    margin-left: -40px;
+    text-transform: capitalize;
+}
+
+.contact-us p {
+    color: white;
+}
+
+.contact-us a {
+    color: white;
+}
+
+.mail-to a:hover {
+    color: red;
+}
+
+.contact-us {
+    line-height: 34px;
+}
+
+.location a:hover {
+    color: red;
+}
+
+.all-rights {
+    color: white;
+    text-transform: capitalize;
+}
+
+.footer {
+    text-align: end;
+}
+
+.footer a {
+    color: red;
+    text-decoration: none;
+    margin: 20px;
+    text-transform: capitalize;
+}
+
+hr {
+    padding: 2px;
+    color: white;
+}
+
+i.fa-solid.fa-phone {
+    margin-right: 10px;
+}
+
+i.fa-solid.fa-envelope {
+    margin-right: 10px;
+}
+
+i.fa-solid.fa-location-dot {
+    margin-right: 10px;
+}
+
+section.grey-color {
+    background-color: #262525;
+    color: white;
+    padding: 50px;
+}
+
+.position-image img {
+    width: 400px;
+    height: 400px;
+}
+
+.weight-lift img {
+    width: 285px;
+    height: 266px;
+}
+
+.position-image {
+    position: relative;
+}
+
+.weight-lift {
+    position: absolute;
+    top: 249px;
+    left: 203px;
+}
+
+.fitness-club h2 {
+    font-size: 47px;
+}
+
+.fitness-club span {
+    color: red;
+}
+
+hr.right-1 {
+    padding: 4px;
+    color: red;
+    width: 99px;
+}
+
+.fitness-club p {
+    font-size: 20px;
+}
+
+.addres p {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.addres a {
+    font-size: 20px;
+    margin-left: 26px;
+    color: white;
+    text-decoration: none;
+}
+
+.addres a:hover {
+    color: red;
+}
+
+.why-chosse-us h2 {
+    font-size: 32px;
+    padding-top: 10px;
+}
+
+.why-chosse-us p {
+    font-size: 20px;
+}
+
+.triangle-img {
+    position: relative;
+    left: 1099px;
+    bottom: 316px;
+}
+
+.triangle-img img {
+    width: 107px;
+}
+
+.our-team span {
+    color: red;
+    font-size: 39px;
+}
+
+hr.height-52 {
+    width: 66px;
+    padding: 3px;
+    color: red;
+}
+
+.our-team p {
+    font-size: 17px;
+}
+
+.follow-us h2 {
+    display: inline-block;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+i.fa-brands.fa-facebook {
+    margin-left: 15px;
+    margin-right: 19px;
+    font-size: 17px;
+    color: white;
+}
+
+i.fa-brands.fa-instagram {
+    color: white;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+i.fa-brands.fa-twitter {
+    color: white;
+    font-size: 17px;
+}
+
+i.fa-brands.fa-instagram:hover {
+    color: red;
+}
+
+i.fa-brands.fa-facebook:hover {
+    color: red;
+}
+
+i.fa-brands.fa-twitter:hover {
+    color: red;
+}
+
+section.grey-colour {
+    background: #000000eb;
+    padding: 40px;
+    color: white;
+}
+
+.contact-us-5 h2 {
+    font-size: 42px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.contact-us-5 span {
+    color: red;
+}
+
+hr.height-20 {
+    width: 77px;
+    margin-left: 530px;
+    color: red;
+    padding: 3px;
+}
+
+.come-and-join h2 {
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+hr.row-1 {
+    width: 50px;
+    margin-left: 548px;
+    margin-top: -9px;
+    color: red;
+}
+
+.need-help {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mobile-no {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fuul-coloum {
+    background: #424242;
+    padding: 15px;
+    margin: 18px;
+}
+
+.need-help a {
+    color: red;
+    font-size: 30px;
+}
+
+.need-help h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.mobile-no {
+    margin-left: 102px;
+    font-size: 18px;
+}
+
+.mobile-no a {
+    text-decoration: none;
+}
+
+.mobile-no2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 28px;
+    font-size: 16px;
+}
+
+.mobile-no2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.mobile-no2 a:hover {
+    color: red;
+}
+
+.you-name input {
+    width: 100%;
+    background: #424242;
+    outline: none;
+    border-bottom: 2px solid red;
+    border-right: 0px solid;
+    height: 41px;
+}
+
+.you-name input:hover {
+    border: 2px solid skyblue;
+}
+
+.you-name h3 {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.you-name textarea {
+    background: #424242;
+    outline: none;
+}
+
+.you-name textarea {
+    border-bottom: 2px solid red;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0;
+}
+
+.you-name textarea:hover {
+    border: 2px solid skyblue;
+}
+
+.need-help {
+    display: inline-block;
+    vertical-align: middle;
+    border-right: 2px solid red;
+    height: 75px;
+    text-align: center;
+    padding-right: 47px;
+}
+
+
+
+/* media query for mobile */
+@media (max-width:767px) {
+    section.background-image {
+        height: auto;
+    }
+
+    .unleash h1 {
+        font-size: 35px;
+        padding-top: 15px;
+    }
+
+    .unleash p {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+    .fitness-joureny h2 {
+        font-size: 26px;
+        padding-top: 14px;
+    }
+
+    .coustmized p {
+        font-size: 16px;
+        padding-top: 14px;
+        padding-left: 0px;
+        text-align: start;
+    }
+
+    .main {
+        height: auto;
+    }
+
+    .holistic {
+        text-align: center;
+        padding: 28px;
+        line-height: 18px;
+        background-color: #8080803b;
+        margin-top: 10px;
+        color: white;
+    }
+
+    .line-imgae {
+        display: none;
+    }
+
+    .triangle-image {
+        display: none;
+    }
+
+    .space-seven h2 {
+        margin-top: 10px;
+        font-size: 34px;
+    }
+
+    hr.height {
+        margin: 0 auto;
+        width: 222px;
+    }
+
+    section.background-image-3 {
+        background-size: cover;
+        height: auto;
+    }
+
+    .key-features {
+        padding: 15px;
+    }
+
+    .key-features p {
+        width: auto;
+        font-size: 18px;
+    }
+
+    .flip-card {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .flip-card-inner {
+        margin-top: 23px;
+    }
+
+    .upper-case {
+        margin-top: 20px;
+    }
+
+    .middle {
+        margin-top: 20px;
+    }
+
+    section.black-color {
+        padding: 15px;
+        text-align: start;
+    }
+
+    .recompose p {
+        width: 100%;
+    }
+
+    .recompose {
+        text-align: center;
+    }
+
+    .recompose img {
+        width: 100%;
+        padding: 22px;
+        margin-left: 0;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .contact-us {
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .contact-us h2 {
+        padding: 10px;
+        margin-left: 0;
+    }
+
+    .all-rights {
+        text-align: center;
+    }
+
+    .footer {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .flip-card-front img {
+        width: 94%;
+    }
+
+    .flip-card-back img {
+        width: 95%;
+    }
+
+    .footer a {
+        margin: 10px;
+    }
+
+    /* media for contact us page for mobile */
+    .you-name textarea {
+        width: 100%;
+    }
+
+    hr.row-1 {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    hr.height-20 {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    section.grey-colour {
+        padding: 1px;
+    }
+
+    .need-help {
+        border-right: 0px solid;
+        padding-right: 0px;
+        width: 100%;
+        margin: 0 auto;
+        border-bottom: 2px solid red;
+    }
+
+    .mobile-no {
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .gmap_canvas {
+        height: auto;
+    }
+
+    section.grey-color {
+        padding: 10px;
+    }
+
+    .position-image img {
+        width: 100%;
+    }
+
+    .weight-lift {
+        position: static;
+        top: 249px;
+        left: 203px;
+    }
+
+    .fitness-club h2 {
+        text-align: center;
+    }
+
+    hr.right-1 {
+        padding: 4px;
+        color: red;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .why-chosse-us h2 {
+        text-align: center;
+        padding-top: 15px;
+        color: red;
+    }
+
+    .image-section img {
+        width: 100%;
+    }
+
+    .our-team h2 {
+        text-align: center;
+        font-size: 38px;
+        padding-top: 20px;
+    }
+
+    hr.height-52 {
+        width: 75%;
+        margin: 0 auto;
+        color: red;
+        padding: 7px 4px 0px 0px;
+    }
+
+    .our-team {
+        text-align: center;
+    }
+    .fuul-coloum {
+        padding: 8px;
+        margin-top: 15px;
+    }
+    .mobile-no2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .join-free-trial {
+        width: 130px;
+    }
+    .main {
+        height: 100%;
+        padding-bottom: 35px;
+    }
+    .coustmized p {
+        padding-top: 40px;
+    }
+    .fitness-joureny h2 {
+        padding-top: 40px;
+    }
+    .line-imgae img {
+        margin-left: 0px;
+    }
+    .triangle-image img {
+        margin-left: 100px;
+    }
+    .flip-card-front img {
+        width: 100%;
+        height: 100%;
+    }
+    .flip-card {
+        width: 159px;
+        height: 233px;
+    }
+    .key-features {
+        padding: 17px;
+    }
+    section.background-image-3 {
+        height: 100%;
+        padding-bottom: 13px;
+    }
+    .flip-card-back img {
+        width: 100%;
+        height: 100%;
+    }
+    /* uycgdshcjdsc */
+    .weight-lift {
+        position: initial;
+    }
+    .position-image img {
+        width: 325px;
+    }
+    .you-name textarea {
+        width: 100%;
+    }
+    .need-help {
+      
+        border-right: 0px;
+        border-bottom: 2px solid red;
+    }
+    .need-help {
+        display: flex;
+        padding-right: 0px;
+        flex-direction: column;
+    }
+    .mobile-no {
+         margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile-no2 {
+        margin-left: 13px;
+    }
+    .image-section img {
+        width: 100%;
+        height: 379px;
+    }
+        
+}
